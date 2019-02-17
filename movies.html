@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overlock">
+    <title>VOX - Movies</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="left-nav"><a href="index.html">VOX</a></li>
+            <li class="right-nav"><a href="login.php">Login</i></a></li>
+            <li class="right-nav"><a href="signup.php">Sign Up</a></li>
+            <li class="right-nav"><a class="active" href="movies.html">Movies</a></li>
+            <li class="right-nav"><a href="index.html">Home</a></li>
+        </ul>
+    </header>
+    <h1 id="headtext1">NOW SHOWING</h1>
+    <div class="container">
+        <div class="card">
+            <div class="img-box">
+                <img src="images/av4.png">
+            </div>
+            <div class="content">
+                <h2>Avengers: End Game<br><span>Now Showing</span></h2>
+                <p>Thanos just destroyed the entire planet now the left 50% have to save 
+                    the world. Captain Marvel is shit
+                </p>
+                <br>
+                <a href="">Book Tickets</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="images/petta.png">
+            </div>
+            <div class="content">
+                <h2>Petta<br><span>Now Showing</span></h2>
+                <p>Rajnikanth just saved Madurai from Singaaram. Nawazuddin Siddiqui is shit.
+                </p>
+                <br>
+                <a href="">Book Tickets</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="images/viswasam.png">
+            </div>
+            <div class="content">
+                <h2>Viswasam<br><span>Now Showing</span></h2>
+                <p>Ajith Kumar just saved his daughter from a goon and told oduma. Ajith is shit.
+                </p>
+                <br>
+                <a href="">Book Tickets</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="card">
+            <div class="img-box">
+                <img src="images/av4.png">
+            </div>
+            <div class="content">
+                <h2>Avengers: End Game<br><span>Now Showing</span></h2>
+                <p>Thanos just destroyed the entire planet now the left 50% have to save 
+                    the world. Captain Marvel is shit
+                </p>
+                <br>
+                <a href="">Book Tickets</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="images/petta.png">
+            </div>
+            <div class="content">
+                <h2>Petta<br><span>Now Showing</span></h2>
+                <p>Rajnikanth just saved Madurai from Singaaram. Nawazuddin Siddiqui is shit.
+                </p>
+                <br>
+                <a href="">Book Tickets</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="images/viswasam.png">
+            </div>
+            <div class="content">
+                <h2>Viswasam<br><span>Now Showing</span></h2>
+                <p>Ajith Kumar just saved his daughter from a goon and told oduma. Ajith is shit.
+                </p>
+                <br>
+                <a href="">Book Tickets</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h1 id="headtext2">COMING SOON</h1>
+    <div class="container">
+        <div class="card">
+            <div class="img-box">
+                <img src="images/av4.png">
+            </div>
+            <div class="content">
+                <h2>Avengers: End Game<br><span>Coming Soon</span></h2>
+                <!--<p>Thanos just destroyed the entire planet now the left 50% have to save 
+                    the world. Captain Marvel is shit
+                </p>-->
+                <br>
+                <!--<a href="">Book Tickets</a>-->
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="images/petta.png">
+            </div>
+            <div class="content">
+                <h2>Petta<br><span>Coming Soon</span></h2>
+                <!--<p>Rajnikanth just saved Madurai from Singaaram. Nawazuddin Siddiqui is shit.
+                </p>-->
+                <br>
+                <!--<a href="">Book Tickets</a>-->
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="images/viswasam.png">
+            </div>
+            <div class="content">
+                <h2>Viswasam<br><span>Coming Soon</span></h2>
+                <!--<p>Ajith Kumar just saved his daughter from a goon and told oduma. Ajith is shit.
+                </p>-->
+                <br>
+                <!--<a href="">Book Tickets</a>-->
+            </div>
+        </div>
+    </div>
+    <button class="openbtn" onclick="openForm();">Chat with TicketBot</button>
+    <div class="chatbox" id="myForm">
+        <form action="chatbot.php" class="chatform" method="POST">
+            <p>Chat</p>
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type Message..." name="msg" required></textarea>
+            <button type="submit" class="sendbtn">Send</button>
+            <button type="button" class="cancelbtn" onclick="closeForm();">Close</button>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <footer>
+        <ul>
+            <li><a href="#"><i class="fa fa-headphones"></i> Customer Care</a></li>
+            <li><a href="#"><i class="fa fa-comment"></i> FAQs</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i><abbr title="+91 9844706287"> Contact Us</abbr></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i><abbr title="ticketempire@gmail.com"> Email Us</abbr></a></li>
+        </ul>
+        <div>
+            <p>Copyright © TicketEmpire 2019. All rights reserved.</p>
+        </div>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overlock">
+    <title>VOX - Home</title>
+    <script src="script.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="left-nav"><a href="index.html">VOX</a></li>
+            <li class="right-nav"><a href="login.php">Login</i></a></li>
+            <li class="right-nav"><a href="signup.php">Sign Up</a></li>
+            <li class="right-nav"><a href="movies.html">Movies</a></li>
+            <li class="right-nav"><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </header>
+    <div class="img-div-one">
+        <img src="images/movietheatre.png">
+    </div>
+    <div class="p-div-one">
+        <h1>MOVIES</h1>
+        <br>
+        <p>Movies have become a part of our lives. We have a large database of movies and we thrive to give the best user experience as possible.</p>
+        <br>
+        <p>TicketEmpire only gives its customers the cheapest ticket and beverage costs that makes users want to book tickets with us.</p>
+        <br>
+        <a href="movies.html">Browse Movies</a>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="p-div-two">
+        <h1>BEVERAGES</h1>
+        <br>
+        <p>We aren't the best movie ticket providers out there if we don't provide our customers the best beverages there is to offer.</p>
+        <br>
+        <p>Don't worry! TicketEmpire has got you covered. It offers the customers the finest quality popcorn and aerated drinks at the cheapest prices. Have fun watching and eating away!</p>
+        <br>
+        <a href="#">Add Beverages</a>
+    </div>
+    <div class="img-div-two">
+        <img src="images/popcorn.png">
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="img-div-one">
+        <img src="images/user.png">
+    </div>
+    <div class="p-div-one">
+        <h1>CREATE ACCOUNT</h1>
+        <br>
+        <p>The sign up/login system is quite simple and is pretty similar to other websites out there. But there is a catch that you would like to know about.</p>
+        <br>
+        <p>At TicketEmpire, a 30% discount will be awarded to the first movie that you book via TicketEmpire. With each recommendation, you will get the same discount on further movies you book. How is that for a change?</p>
+        <br>
+        <ul class="content-class">
+            <li class="content-link"><a href="signup.php">Sign Up</a></li>
+            <li class="content-link"><a href="login.php">Login</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="p-div-two">
+        <h1>FEEDBACK</h1>
+        <br>
+        <p>We want to give the best quality services to our customers. So it would be beneficial for us if you can give us a feedback.</p>
+        <br>
+        <p>We read the feedback of our customers regularly and based on requests, we will try to improve the quality of our services. So please stay with us. Don't smash our reputation.</p>
+        <br>
+        <a href="feedback.php">Give Feedback</a>
+    </div>
+    <div class="img-div-two">
+        <img id="img4" src="images/thumbsup.png">
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="img-div-one">
+        <img src="images/chatbot.png">
+    </div>
+    <div class="p-div-one">
+        <h1>CHATBOT</h1>
+        <br>
+        <p>To add to the user experience, we also have an integrated chatbot that will recommend you movies based on your preferences.</p>
+        <br>
+        <p>The chatbot will not only give suggestions, but also help book tickets on our website and it also entertains you with its humourous talk. You will enjoy talking with our chatbot.</p>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="openbtn" onclick="openForm();">Chat with TicketBot</button>
+    <div class="chatbox" id="myForm">
+        <form action="chatbot.php" class="chatform" method="POST">
+            <p>Chat</p>
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type Message..." name="msg" required></textarea>
+            <button type="submit" class="sendbtn">Send</button>
+            <button type="button" class="cancelbtn" onclick="closeForm();">Close</button>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <footer>
+        <ul>
+            <li><a href="#"><i class="fa fa-headphones"></i> Customer Care</a></li>
+            <li><a href="#"><i class="fa fa-comment"></i> FAQs</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i><abbr title="+91 9844706287"> Contact Us</abbr></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i><abbr title="ticketempire@gmail.com"> Email Us</abbr></a></li>
+        </ul>
+        <div>
+            <p>Copyright © TicketEmpire 2019. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

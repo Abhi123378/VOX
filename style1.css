@@ -1,0 +1,273 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url("https://ak8.picdn.net/shutterstock/videos/9688088/thumb/1.jpg");
+    background-attachment: fixed;
+    font-family: 'Overlock', cursive;
+}
+header
+{
+    background-color: #524A59;
+}
+header ul
+{
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    list-style-type: none;
+}
+header .left-nav
+{
+    float: left;
+}
+header .right-nav
+{
+    float: right;
+}
+header .left-nav a, .right-nav a
+{
+    color: white;
+    text-decoration: none;
+}
+header .left-nav a
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+header .right-nav a
+{
+    padding: 14px 16px;
+    line-height: 5vh;
+}
+header .left-nav a:hover
+{
+    color: #358790;
+}
+header .right-nav a.active
+{
+    background-color: #358790;
+}
+header .right-nav a:hover
+{
+    background-color: #358790;
+    transition: 0.5s;
+}
+.container
+{
+    position: relative;
+    width: 1000px;
+    margin: 30px auto 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
+
+}
+.container .card
+{
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.container .card:hover
+{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2); 
+}
+img
+{
+    width: 305px;
+}
+.container .card .img-box
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.container .card .img-box
+{
+    opacity: 0.5;
+}
+.container .card .img-box img
+{
+    width: 100%;
+    height: 100%;
+}
+.container .card .content
+{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom:-100%;
+    padding-top: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+}
+.container .card:hover .content
+{
+    bottom: 0;
+}
+.container .card:nth-child(1) .content
+{
+    background: linear-gradient(0deg,#c21833,transparent);
+}
+.container .card:nth-child(2) .content
+{
+    background: linear-gradient(0deg,#8012a5,transparent);
+}
+.container .card:nth-child(3) .content
+{
+    background: linear-gradient(0deg,#3a414c,transparent);
+}
+.container .card .content h2
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.container .card .content h2 span
+{
+    color: #ffeb3b;
+    font-size: 16px;
+}
+.container .card .content p
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.container .card .content a
+{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background-color: #358790;
+    color: white;
+    font-family: 'Overlock', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+footer
+{
+    background-color: #524A59;
+}
+footer ul
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+footer ul li
+{
+    float: left;
+}
+footer ul li a
+{
+    text-decoration: none;
+    padding: 90px 92px;
+    color: white;
+    font-size: 25px;
+}
+footer ul li a:hover
+{
+    background-color: #358790;
+    transition: 0.5s;
+}
+footer p
+{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.openbtn
+{
+    background-color: #358790;
+    border: none;
+    outline: none;
+    font-family: 'Overlock', cursive;
+    padding: 16px 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    right: 35px;
+    width: 280px;
+}
+.openbtn:hover
+{
+    background-color: #86D7C2;
+}
+.chatbox
+{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #408080;
+    z-index: 9;
+}
+.chatform
+{
+    max-width: 300px;
+    padding: 10px;
+    background-color: #358790; 
+}
+.chatform textarea
+{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    resize: none;
+    min-height: 200px;
+    font-family: 'Overlock', cursive;
+}
+.chatform textarea:focus
+{
+    background-color: lightgreen;
+    outline: none; 
+}
+.chatform .sendbtn, .cancelbtn
+{
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.chatform .cancelbtn
+{
+    background-color: violet;
+}
+.chatform .sendbtn:hover, .openbtn:hover
+{
+    opacity: 1;
+}
+#headtext1, #headtext2
+{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}

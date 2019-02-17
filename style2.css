@@ -1,0 +1,246 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: url("https://ak8.picdn.net/shutterstock/videos/9688088/thumb/1.jpg");
+    background-attachment: fixed;
+    font-family: 'Overlock', cursive;
+}
+header
+{
+    background-color: #524A59;
+}
+header ul
+{
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    list-style-type: none;
+}
+header .left-nav
+{
+    float: left;
+}
+header .right-nav
+{
+    float: right;
+}
+header .left-nav a, .right-nav a
+{
+    color: white;
+    text-decoration: none;
+}
+header .left-nav a
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+header .right-nav a
+{
+    padding: 14px 16px;
+    line-height: 5vh;
+}
+header .left-nav a:hover
+{
+    color: #358790;
+}
+header .right-nav a.active
+{
+    background-color: #358790;
+}
+header .right-nav a:hover
+{
+    background-color: #358790;
+    transition: 0.5s;
+}
+#signuptext
+{
+    text-align: center;
+    color: white;
+}
+#signupform
+{
+    border: 1px solid #524A59;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 20px;
+    background-color: #18cee2;
+}
+#signupform p
+{
+    color: white;
+    text-align: center;
+    margin-left: 25px;
+}
+#signupform input[type="text"], input[type="email"], input[type="password"]
+{
+    border: none;
+    outline: none;
+    font-family: 'Overlock', cursive;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 175px;
+    text-align: center;
+    border-radius: 20px;
+}
+#signupform input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder
+{
+    text-align: center;
+}
+#signupform input[type="submit"]
+{
+    margin-top: 5px;
+    margin-left: 285px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Overlock', cursive;
+    font-size: 20px;
+    background-color: #358790;
+    padding: 10px;
+}
+#signupform a
+{
+    text-decoration: none;
+}
+#ortext
+{
+    text-align: center;
+    color: white;
+}
+button.social
+{
+    margin-left: 210px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.facebook
+{
+    background: #32508E;
+}
+.twitter
+{
+    background: #55ACEE;
+}
+.google
+{
+    background: #DD4B39;
+}
+footer
+{
+    background-color: #524A59;
+}
+footer ul
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+footer ul li
+{
+    float: left;
+}
+footer ul li a
+{
+    text-decoration: none;
+    padding: 90px 92px;
+    color: white;
+    font-size: 25px;
+}
+footer ul li a:hover
+{
+    background-color: #358790;
+    transition: 0.5s;
+}
+footer p
+{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.openbtn
+{
+    background-color: #358790;
+    border: none;
+    outline: none;
+    font-family: 'Overlock', cursive;
+    padding: 16px 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    right: 35px;
+    width: 280px;
+}
+.openbtn:hover
+{
+    background-color: #86D7C2;
+}
+.chatbox
+{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #408080;
+    z-index: 9;
+}
+.chatform
+{
+    max-width: 300px;
+    padding: 10px;
+    background-color: #358790; 
+}
+.chatform textarea
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    resize: none;
+    min-height: 200px;
+    font-family: 'Overlock', cursive;
+}
+.chatform textarea:focus
+{
+    background-color: lightgreen;
+    outline: none; 
+}
+.chatform .sendbtn, .cancelbtn
+{
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.chatform .cancelbtn
+{
+    background-color: violet;
+}
+.chatform .sendbtn:hover, .openbtn:hover
+{
+    opacity: 1;
+}
