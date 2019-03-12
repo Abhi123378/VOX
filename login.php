@@ -22,7 +22,7 @@
     <h1 id="signuptext">LOGIN</h1>
     <form id="signupform" action="signup.php" method="POST">
         <p>Enter Username</p>
-        <input type="text" placeholder="Type Username">
+        <input type="text" style="font-color:black" placeholder="Type Username">
         <br>
         <p>Enter Password</p>
         <input type="password" placeholder="Type Password">
