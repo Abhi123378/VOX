@@ -26,5 +26,7 @@
   <a class='forgot' href='#'>Forgot your password?</a>
 </div>
 </form>
+<?php 
+
 </body>
 </html>
