@@ -7,3 +7,4 @@ Movie Booking Website
 4. Create a folder called 'images' inside of the extracted folder.
 5. Open the file 'index.html' and start using.
 6.THE END..
+7.THE END....
