@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.row-a, .row-b, .row-c, .row-d, .row-e, .row-f, .row-g, .row-h, .row-i, .row-j, .row-n, .row-m, .row-l, .row-k
+{
+    position: absolute;
+    left: 50px;
+}
+.row-a
+{
+    top: 10px;
+}
+.row-b
+{
+    top: 50px;
+}
+.row-c
+{
+    top: 90px;
+}
+.row-d
+{
+    top: 130px;
+}
+.row-e
+{
+    top: 170px;
+}
+.row-f
+{
+    top: 210px;
+}
+.row-g
+{
+    top: 250px;
+}
+.row-h
+{
+    top: 290px;
+}
+.row-i
+{
+    top: 330px;
+}
+.row-j
+{
+    top: 370px;
+}
+.row-n
+{
+    top: 530px;
+}
+.row-m
+{
+    top: 490px;
+}
+.row-l
+{
+    top: 450px;
+}
+.row-k
+{
+    top: 410px;
+}
+.row-a-seats:hover, .row-a-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-b-seats:hover, .row-b-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-d-seats:hover, .row-d-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-e-seats:hover, .row-e-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-f-seats:hover, .row-f-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-g-seats:hover, .row-g-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-h-seats:hover, .row-h-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-i-seats:hover, .row-i-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-j-seats:hover, .row-j-seats-2:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-k-seats:hover, .row-k-seats-2:hover, .row-k-seats-3:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-l-seats:hover, .row-l-seats-2:hover, .row-l-seats-3:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-m-seats:hover, .row-m-seats-2:hover, .row-m-seats-3:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-n-seats:hover, .row-n-seats-2:hover, .row-n-seats-3:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-a-seats, .row-a-seats-2, .row-b-seats, .row-b-seats-2, .row-c-seats, .row-c-seats-2
+{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+.row-d-seats, .row-d-seats-2, .row-e-seats, .row-e-seats-2, .row-f-seats, .row-f-seats-2
+{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+.row-g-seats, .row-g-seats-2, .row-h-seats, .row-h-seats-2, .row-i-seats, .row-i-seats-2, .row-j-seats, .row-j-seats-2 
+{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+.row-n-seats, .row-n-seats-2, .row-n-seats-3, .row-m-seats, .row-m-seats-2, .row-m-seats-3, .row-l-seats, .row-l-seats-2, .row-l-seats-3, .row-k-seats, .row-k-seats-2, .row-k-seats-3
+{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+.row-a-seats-2, .row-b-seats-2, .row-c-seats-2, .row-d-seats-2
+{ 
+    position: relative;
+    left: 600px;
+    top: -23px;       
+}
+.row-e-seats-2, .row-f-seats-2, .row-g-seats-2, .row-h-seats-2
+{ 
+    position: relative;
+    left: 600px;
+    top: -23px;       
+}
+.row-i-seats-2, .row-j-seats-2
+{ 
+    position: relative;
+    left: 600px;
+    top: -23px;       
+}
+.row-n-seats-2, .row-m-seats-2, .row-l-seats-2, .row-k-seats-2
+{ 
+    position: relative;
+    left: 370px;
+    top: -23px;       
+}
+.row-n-seats-3, .row-m-seats-3, .row-l-seats-3, .row-k-seats-3
+{
+    position: relative;
+    left: 820px;
+    top: -46px; 
+}
+.screen-this-way
+{
+    position: absolute;
+    top: 570px;
+    left: 300px;
+    width: 50%;
+    height: 20px;
+    background-color: black;
+}
+.screen-this-way p
+{
+    text-align: center;
+    color: white;
+}
