@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.row-a, .row-b, .row-c, .row-d, .row-e, .row-f, .row-g, .row-h, .row-i, .row-j
+{
+    position: absolute;
+    left: 270px;
+}
+.row-a
+{
+    top: 10px;
+}
+.row-b
+{
+    top: 50px;
+}
+.row-c
+{
+    top: 90px;
+}
+.row-d
+{
+    top: 130px;
+}
+.row-e
+{
+    top: 170px;
+}
+.row-f
+{
+    top: 210px;
+}
+.row-g
+{
+    top: 250px;
+}
+.row-h
+{
+    top: 290px;
+}
+.row-i
+{
+    top: 330px;
+}
+.row-j
+{
+    top: 370px;
+}
+.row-a-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-b-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-c-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-d-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-e-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-f-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-g-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-h-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-i-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-j-seats:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.row-a-seats, .row-b-seats, .row-c-seats
+{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+.row-d-seats, .row-e-seats, .row-f-seats
+{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+.row-g-seats, .row-h-seats, .row-i-seats, .row-j-seats
+{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+.screen-this-way
+{
+    position: absolute;
+    top: 570px;
+    left: 300px;
+    width: 50%;
+    height: 20px;
+    background-color: black;
+}
+.screen-this-way p
+{
+    text-align: center;
+    color: white;
+}
+button
+{
+    cursor: pointer;
+}
